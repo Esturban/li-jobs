@@ -1,4 +1,4 @@
-# My API Project
+# LinkedIn Jobs API
 
 This project is a simple API that allows users to query job listings using the LinkedIn Jobs API. It is built with TypeScript and Express, and can be easily hosted in a Docker container.
 
