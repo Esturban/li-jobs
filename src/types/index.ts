@@ -8,6 +8,7 @@ export interface QueryOptions {
   experienceLevel: string;
   limit: string;
   page: string;
+  //includeDescription: boolean;
 }
 
 export interface Job {
