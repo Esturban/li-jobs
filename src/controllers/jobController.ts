@@ -12,13 +12,16 @@ class JobController {
             experienceLevel: req.body.experienceLevel || 'entry level,senior,associate',
             limit: req.body.limit || '20',
             page: req.body.page || '0',
+            includeDescription: req.body.includeDescription || false,
         };
 
         try {
+            console.log(queryOptions);
             const linkedIn = require('linkedin-jobs-api');
             const response = await linkedIn.query(queryOptions);
             res.json(response);
         } catch (error) {
+            console.log(queryOptions);
             res.status(500).json({ error: 'An error occurred while fetching job data.' });
         }
     }
