@@ -176,3 +176,4 @@ dist
 
 # AI-IDE scaffolding (not used in this project)
 *.code-workspace
+.codegraph/
