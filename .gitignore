@@ -179,3 +179,7 @@ dist
 .codegraph/
 .wolf/
 .claude/
+CLAUDE.md
+GEMINI.md
+.cursor/
+copilot-instructions.md
